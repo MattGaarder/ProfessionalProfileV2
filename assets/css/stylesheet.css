@@ -1,0 +1,249 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+    background-image: url("../illustrations/WithoutWhiteMe.png");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position-y: 47px;
+    background-attachment:local;
+    background-position-x: -30px;
+    color: rgb(188, 188, 188);
+}
+
+#navBar {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    flex-direction: row;
+    margin: 0 auto;
+    background-color: rgb(38, 38, 38);
+    position: fixed;
+    margin-top: -5%;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+    margin-left: 38%;
+    margin-right: 46%;
+    margin-bottom: -30px;
+    padding: 10px;
+    display:block;
+    font-size: 40px;
+    background-color: rgb(96, 96, 96);
+    border-radius: 9px;
+}
+
+
+#navigation {
+    width: 100%;
+    margin-left: 70%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em;
+    position: fixed;
+}
+
+#intro {
+    margin-left: 38%;
+    margin-top: 1%;
+    margin-right: 4%;
+    background-color: rgb(96, 96, 96);
+    padding: 30px;
+    border-radius: 9px;
+}
+
+#intro p {
+    margin-top: 9px;
+}
+
+#gridContainer {
+    margin: 0px;
+    display: grid;
+    gap: 0.5em;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-template-rows: 1fr 1fr;
+    min-height: 50px;
+    min-width: 0;
+    margin-top: 2%;
+    text-align: center;
+}
+
+
+a {
+    color: black;
+}
+
+.gridBlock {
+    display: flex;
+    margin-left:auto;
+    margin-right:auto;  
+    flex-direction: column;
+    height: 80px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: rgb(96, 96, 96);
+}
+
+
+
+
+
+
+
+
+
+
+
+#illustration h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+}
+
+#illustration {
+    border: 0px solid black;
+    margin: 0rem;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+#illustration p {
+    display: inline-block;
+    /* border: 1px solid red; */
+    padding: 1rem 1rem;
+    vertical-align: middle;
+}
+
+#illustration img {
+    max-width: 300px; 
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 0.5rem 0.5rem;
+    vertical-align: middle;
+}
+
+#illustration .gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    max-width: 100%;
+    padding: 0px 0px;
+    /* border: 1px solid black; */
+    margin: 0rem;
+    padding: 0rem 0rem;
+    text-align: center;
+  }
+
+
+.gridContainerV2 {
+    margin: 0px;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(3, minmax(240px, 1fr));
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 300px;
+    min-height: 100px;
+    max-height: 100px;
+    min-width: 0;
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+.card {
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    align-items: center;
+    display: flex;
+    position: relative;
+    min-width: 300px;
+    min-height: 300px;
+
+}
+
+
+
+#fallGuy {
+    background-image: url("./Illustrations/AfricanMaskDude.jpg");
+    
+}
+
+#none {
+    background-image: url("");
+}
+
+#conductor {
+    background-image: url("./Illustrations/CampConductor.jpg");
+}
+
+#dumbCat {
+    background-image: url("./Illustrations/CampHoosah.jpg");
+}
+
+#frenchLady {
+    background-image: url("./Illustrations/Composer.jpg");
+}
+
+#skulls {
+    background-image: url("../illustrations/AfricanMaskDude.jpg");
+}
+
+#samurai {
+    background-image: url("../");
+}
+
+
+
+@media screen and (min-width: 600px) {
+    .cardTall { 
+        grid-row: span 2 / auto;
+    }
+    
+    .cardWide {
+        grid-column: span 2 /auto;
+    }
+}
+
+
+
+.flexContainer3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexBlock3 {
+    border-radius: 10px;
+    flex-wrap: wrap;
+    height: fit-content;
+    width: fit-content;
+    max-width:30%;
+    max-height: 30%;
+
+}
+
+.flexBlock3 img {
+        max-width: 100%;
+        max-height: 100%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+}
+
+#african-m img {
+    margin-left: -30px;
+}
