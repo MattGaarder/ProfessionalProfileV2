@@ -1,0 +1,77 @@
+.illustration-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.illustration-area img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 300px;
+  }
+  
+  .mouth {
+    background-image: url("../illustrations/Untitled-Artwork.gif");
+    z-index: 1;
+    }
+  
+  .illustration-area img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 5px;
+    width: 300px;
+  }
+
+  .code-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+  }
+
+  .card {
+    background-color: dodgerblue;
+    color: white;
+    padding: 1rem;
+    height: 5rem;
+    align-items: flex-start;
+    align-content: flex-start;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  h1 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .card p {
+    margin-top: -9px;
+  }
+
+  .card h2 {
+    margin-top: -2px;
+  }
+
+  @media (min-width: 600px) {
+    .code-container { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (min-width: 900px) {
+    .code-container { grid-template-columns: repeat(3, 1fr); }
+  }
+
+  .btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
